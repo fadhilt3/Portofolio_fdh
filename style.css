@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+15&family=Noto+Sans+Wancho&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    font-family: "Jersey 15", serif;/*jenis font yang digunakan*/
+    font-size: large;/*ukuran tulisan*/
+  background-color: black;/*untuk mengatur warna latar belakang*/
+  color: rgb(255, 255, 255);/*mengatur warna teks*/
+}
+.navbar{
+  display: flex;/*untuk menampilkan content navbar secara fleksibel*/
+  justify-content: space-between;/*untuk memberikan jarak atanar elemen elemen navbar*/
+  align-items: center;/*mertakan tulisan*/
+  margin: 1rem 5rem;/*mengatur jarak antar elemen elemen 1rem=16px mengatur atas 5rem=80px mengatur kiri*/
+}
+.email{
+  font-size: 15px;/*mengatur ukuran teks email*/
+  font-weight: 500;/*mengatur ketebalan teks email*/
+}
+.sosial-media{
+  display: flex;/*Untuk menampilkan content secara fleksibel*/
+  align-items: center;/*Meratakan tulisan ke tengah*/
+  gap: 10px;/*Untuk menambahkan spasi secara horizontalbdab vertikal*/
+}
+.sosial-media a{
+  text-decoration: none;/*Untuk menghapus garis bawah link*/
+  color: antiquewhite;/*Untuk mengatur warna teks link media sosial*/
+  transition: all 0.3s ease-in-out;/*Untuk menambahkan dan mengangti kursor saat tersentuh*/
+}
+hr{
+border-color: rgb(255, 255, 255);/*untuk mengatur warna garis*/
+margin: 0 4.5rem;/*mengatuur Jarak antara hr dengan element lain*/
+}
+.hero{
+  display: flex;/*untuk menampilkan content secara fleksibel*/
+  height: 70hv;/*untuk mengatur tinggi hero berdasarkan tinggi layarl*/
+  flex-direction: column;/*untuk mengatur elemen agar tersusun vertikal*/
+  justify-content: center;/*untk mengatur agar elemenya di dalamnya beraada di tengah secara vertikal*/
+  align-items: center;/*untuk mengatur elemen didalam aris tersebut akan di tengahkan secara vertikal*/
+}
+.avatar{
+  width: 120px;/*mengatur lebar foto*/
+  height: 120px;/*mengatur tinggi foto*/
+  border-radius: 50%;/*membulatkan sudut tepi*/
+  object-fit: cover;/*untuk mengisi ruang  menggunakan  dimensi kecil gambar dan memamangkasnya agar sesuai dengan dimensi tersebut*/
+  margin-bottom: 16px;/*untuk mengatur elemen elemen didalam baris tersebut akan di tengahkan secara vertikal*/
+}
+.healding{
+  margin-top: 1rem;/*untuk mengatur jarak bagian atas*/
+  font-size: 38px;/*untuk mengatur ukuran teks heading*/
+  line-height: 40px;/*untuk mengatur jarak antar baris dalam teks heading*/
+  text-align: center;/*meratakan text ke tengah*/
+  background:linear-gradient(to right,#969696 #413f3f);/*mengatur warna teks menjadi gradasi*/
+  -webkit-background-clip: text;/*mengubah warna baground menjadi hanya tekst*/
+  -webkit-text-fill-color: transparent;/*membuat teks trasparan agar  gradasi terlihat*/
+  margin-bottom: 2rem;/*untuk mengatur jarak di bagian bawah eleemen*/
+}
+.btn-primary{
+  text-decoration: none;/*menghapus garis bawah teks pada tombol*/
+  background-color: rgb(0, 255, 98);/*untuk mengatur warna pada tombol*/
+  border: green;/*mengatur warna garis*/
+  color: rgb(255, 255, 255);/*mengatur warna teks pada tombol*/
+  padding: 1rem 2rem;/*memeri ruang di dalam tombol*/
+  border-radius: 8px;/*membulatkan sudut tepi*/
+  transition: all 0.3s ease-in-out;/*untuk menambahkan dan mengganti kursor saat tersentuh*/
+}
+.btn-primary:hover{
+  background-color: aliceblue;/*untuk mengatur wwarna tombol saaat tersentuh*/
+  color: greenyellow;/*untuk mengantar warna teks pada tombol*/
+}
